@@ -35,3 +35,26 @@ left_side / right_side # 2
 from datetime import date
 date.today() #se llama la funcion de la fecha, today()
 print(date.today())
+
+#Conversión de tipos de datos
+#Para convertir un dato en texto se utiliza la funcion str()
+print("Today's date is: " + str(date.today()))
+
+#Entrada de usuarios por consola se usa input()
+print("Welcome to the greeter program")
+name = input("Enter your name: ")
+print("Greetings " + name)
+
+#Para convertir cadenas a numeros se usa int()
+print("calculator program")
+first_number = input("first number: ")
+second_number = input("second number: ")
+print(int(first_number) + int(second_number))
+
+#Ejemplo
+parsecs_input = input("Input numbers of parsecs:")
+parsecs = int(parsecs_input)
+lightyears = 3.26156 * parsecs
+
+print(parsecs_input + " parsecs is " + str(lightyears) + " lightyears")
+
